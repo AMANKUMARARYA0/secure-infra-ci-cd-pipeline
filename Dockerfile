@@ -2,9 +2,9 @@ FROM node:18
 
 WORKDIR /app
 
-COPY ..
+COPY . .
 
 RUN npm install
 
-CMD ["node","app.js"]
+CMD ["node", "app.js"]
 
